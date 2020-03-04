@@ -28,9 +28,9 @@ public class Puzzle {
 	public static void main(String[] args) {
 		if (args.length < 1) {
 			System.out.println("[Usage] nonogram <number_file_name> [output]\n"
-					+ "    output: 0 --- console text (default)\n"
-					+ "            1 --- console text with Ascii Color Marker\n"
-					+ "            2 --- graphic draw within a Window");
+					+ "    output: 0 --- in plain text (default)\n"
+					+ "            1 --- in plain text with ANSI color escape sequence\n"
+					+ "            2 --- draw to screen");
 			return;
 		}
 
